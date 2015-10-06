@@ -1,0 +1,18 @@
+var express =  require("express");
+var app = express();
+app.set('port', 1024);
+app.set('view engine', 'html');
+
+//Serer configuration
+app.listen(app.get('port'), function(err){
+  if(err){
+    console.log("Error! :", err);
+  }else{
+    console.log("Server was started on port:", app.get('port'));
+  }
+});
+
+
+app.get('/', function(req, res){
+  res.render('index.html');
+});

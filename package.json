@@ -1,0 +1,24 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "Hello World ! A very simple example that show how to print \"Hello world\" in our browser using node Js (v0.12.7), using the express framework web for node and also using the path library I hope you find it useful",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarmorales/node-express-test.git"
+  },
+  "author": "César Alejandro Morales Armijo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cesarmorales/node-express-test/issues"
+  },
+  "homepage": "https://github.com/cesarmorales/node-express-test#readme"
+}
